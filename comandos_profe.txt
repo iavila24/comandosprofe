@@ -1,0 +1,500 @@
+   20  git status
+   21  git commit -am "John Wick 4 tambien la 3 y la 2 y la 1 no se diga rifa"
+   22  git log --oneline
+   23  git checkout 857ef34
+   24  git switch -c FixAgain
+   25  git log --oneline
+   26  git status
+   27  git restore .
+   28  touch luis.md
+   29  echo "# LUISITO NO COMUNICA" > luis.md
+   30  git status
+   31  git add .
+   32  git staus
+   33  git status
+   34  git commit -m "Luis es un metiche"
+   35  git log --oneline
+   36  git checkout master
+   37  git checkout main
+   38  git log --oneline
+   39  git checkout fixagain
+   40  git checkout main
+   41  git checkout fixagain
+   42  git commit -am "Agregue un gusto culposo de Luis"
+   43  git log --oneline
+   44  git checkout 857ef34
+   45  git branch alfinpython
+   46  git checkout alfinpython
+   47  touch main.py
+   48  git status
+   49  git commit -am "Mi primer script python"
+   50  git add .
+   51  git commit -m "Mi primer script python"
+   52  git status
+   53  git commit -am "Agregue un if al codigo"
+   54  git log --onelne
+   55  git log --oneline
+   56  git log --oneline --graph --all
+   57  git checkout main
+   58  git merge fixagain
+   59  git merge alfinpython
+   60  git log --oneline --graph --all
+   61  git branch -v
+   62  exit
+   63  pwd
+   64  cd Desktop/
+   65  mkdir experiments
+   66  cd experiments/
+   67  git clone https://github.com/VanessaRubiera/AprendiendoGit
+   68  ls
+   69  start .
+   70  git clone https://github.com/VanessaRubiera/AprendiendoGit 
+   71  mkdir ramitas
+   72  cd ramitas
+   73  rm ramitas
+   74  touch main.py
+   75  code .
+   76  touch README.md
+   77  echo "# PROYECTO RAMITAS" > README.md 
+   78  git status
+   79  git init
+   80  git branch -M main
+   81  git status
+   82  git add --all
+   83  git status
+   84  git commit -m "Initial commit"
+   85  git show
+   86  python --version
+   87  python main.py
+   88  git commit -am "Add code in main.py"
+   89  git status
+   90  ls __pycache__/
+   91  cat __pycache__/example.cpython-311.pyc 
+   92  touch .gitignore
+   93  ls
+   94  ls -al
+   95  git status
+   96  git add example.py main.py 
+   97  git status
+   98  git commit -m "Learn how import packages with python"
+   99  git log --oneline
+  100  git checkout -b feature_subtract
+  101  git checkout main
+  102  git checkout -b feature_multiplication
+  103  git checkout main
+  104  git checkout -b feature_division
+  105  git checkout main
+  106  git branch
+  107  git log --oneline
+  108  git status
+  109  git commit -m "Create function suma"
+  110  git commit -am "Create function suma"
+  111  git commit -m "Create function suma"
+  112  git log --oneline
+  113  touch subtract.py
+  114  code subtract.py 
+  115  git status
+  116  git checkout feature_subtract 
+  117  git status
+  118  git log --oneline
+  119  git add subtract.py 
+  120  git commit -m "Create function resta"
+  121  git log --oneline
+  122  git log --oneline --all --decorate
+  123  git checkout feature_multiplication 
+  124  touch multiplication.py
+  125  git status
+  126  git add .
+  127  git commit -m "Create function multiplicar"
+  128  git checkout feature_division 
+  129  touch division.py
+  130  code division.py 
+  131  git add .
+  132  git commit -m "Create function division"
+  133  history
+  134  git checkout main
+  135  git commit -am 
+  136  git commit -am "Import the function suma to main"
+  137  git checkout feature_multiplication 
+  138  git merge feature_division
+  139  git checkout feature_subtract 
+  140  git merge feature_multiplication
+  141  git checkout main
+  142  git merge feature_subtract 
+  143  exit
+  144  history 
+  145  cd Desktop
+  146  history > Historial.txt
+  147  python main.py 
+  148  python main.py 
+  149  git status
+  150  git add .
+  151  git status
+  152  touch README.md
+  153  code README.md
+  154  git status
+  155  git add .
+  156  git status
+  157  ls
+  158  touch .gitignore
+  159  git status
+  160  git status
+  161  git commit -m "Primer commit"
+  162  git log --online
+  163  git log --oneline
+  164  git log --oneline
+  165  git log --oneline
+  166  git status
+  167  git status
+  168  git add .
+  169  git status
+  170  git log
+  171  git commit -m "Segundo commit"
+  172  git log
+  173  git status
+  174  git branch conflicto1
+  175  git branch
+  176  git checkout conflicto1
+  177  git checkout -b master
+  178  git branch
+  179  git checkout main
+  180  git branch -D master
+  181  git branch
+  182  git checkout conflicto1 
+  183  git log
+  184  git status
+  185  git add .
+  186  git status
+  187  git commit -m "Commit del conflicto"
+  188  git checkout main
+  189  git status
+  190  git add .
+  191  git status
+  192  git commit -m "Tercer commit"
+  193  git merge conflicto1
+  194  git status
+  195  git add .
+  196  git status
+  197  git commit -m "Arregle el conflicto y deje los 2 cambios í¸‰"
+  198  git log --oneline
+  199  git remote add origin https://github.com/iavila24/conflicts.git
+  200  git push -u origin main
+  201  git config --list
+  202  exit
+  203  pwd
+  204  ls
+  205  cd Desktop/
+  206  mkdir conflicts
+  207  cd conflicts/
+  208  ls
+  209  git init
+  210  git branch -M main
+  211  ls 
+  212  ls -al
+  213  touch main.py
+  214  ls
+  215  code .
+  216  cd desktop
+  217  git clone https://github.com/iavila24/cloudrepository.git
+  218  ls
+  219  ls cloudrepository/
+  220  cd cloudrepository/
+  221  echo "Hola Mundo" > main.py
+  222  git add .
+  223  git commit -m "Agregue el archivo de python"
+  224  py main.py 
+  225  echo "print('Hola Mundo')" > main.py
+  226  git commit -am "Modifique main.py"
+  227  git log
+  228  git log --oneline
+  229  git status
+  230  git status
+  231  git branch
+  232  git branch --all
+  233  git remote -v
+  234  git remote -v
+  235  git branch --all
+  236  git status
+  237  git push
+  238  cd ..
+  239  mkdir localrepository
+  240  echo "# LOCAL REPOSITORIO" > ./localrepository/README.md
+  241  touch ./localrepository/LISCENSE
+  242  ls ./localrepository/
+  243  cd localrepository/
+  244  git init
+  245  git add .
+  246  ls
+  247  git branch -M main
+  248  git commit -m "first commit"
+  249  git remote add origin https://github.com/iavila24/localrepository.git
+  250  git remote -v
+  251  git branch branch1
+  252  git branch
+  253  git push
+  254  git checkout branch1
+  255  touch A.txt
+  256  git add .
+  257  git commit -m "Un archivito chafa"
+  258  git checkouta main
+  259  git checkout main
+  260  git push -u origin main
+  261  git branch 
+  262  git push -u origin branch1
+  263  git switch branch1
+  264  touch B.txt
+  265  git add .
+  266  git commit -m "Otro archivito basura"
+  267  git push
+  268  git status
+  269  git log --oneline
+  270  git fetch
+  271  git log --oneline
+  272  git switch origin/branch1
+  273  git log --oneline
+  274  git switch remote/origin/branch1
+  275  git branch -v
+  276  git branch -all
+  277  git brach --all
+  278  git branch --all
+  279  git switch remotes/origin/branch1
+  280  git switch remotes/origin/branch1 --detach
+  281  git switch branch1
+  282  git merge origin/branch1
+  283  git log --oneline
+  284  cd ..
+  285  git init crash
+  286  cd crash/
+  287  git branch -M main
+  288  echo "# CRASHEA POR FAVOR" > README.md
+  289  touch A.txt
+  290  touch main.py
+  291  git add .
+  292  git status
+  293  git commit -m "Primer commit"
+  294  ls
+  295  git log
+  296  git remote add origin https://github.com/iavila24/crash.git
+  297  git push -u origin main
+  298  git help push
+  299  git push -u origin main --allow-unrelated-histories
+  300  git push --allow-unrelated-histories
+  301  git push origin main --allow-unrelated-histories
+  302  git fetch origin main
+  303  git merge origin/main --allow-unrelated-histories
+  304  git status
+  305  git add .
+  306  git merge origin/main
+  307  git status
+  308  git commit -m "Merge completado"
+  309  git log
+  310  git log --oneline
+  311  git push origin main
+  312  history > commands.txt
+  313  git add .
+  314  git commit -m "Agregue mi historial de comandos"
+  315  git push origin main
+  316  git status
+  317  echo "Vamos" > C.txt
+  318  cat C.txt
+  319  git add .
+  320  git commit -m "Cree C.txt"
+  321  git status
+  322  git push origin main
+  323  git push origin main --allow-unrelated-histories
+  324  git pull origin main --allow-unrelated-histories
+  325  git status
+  326  code .
+  327  git status
+  328  git commit -am "Conflicto Arreglado"
+  329  git push origin main
+  330  exit
+  331  cd desktop
+  332  mkdir alumnos372
+  333  cd alumnos372/
+  334  git clone https://github.com/NestorDeLaRosa/ejercicios Nestor
+  335  code .
+  336  git clone https://github.com/Mark1790/PythonEjercicios Edward
+  337  exit
+  338  cd desktop
+  339  mkdir pep8
+  340  cd pep8/
+  341  touch pep8.py
+  342  code pep8.py 
+  343  git init
+  344  git branch -M main
+  345  git remote add origin https://github.com/iavila24/pep8.git
+  346  git pull origin main
+  347  git push origin main
+  348  git status
+  349  git add pep8.py 
+  350  git commit -m "Archivo sin PEP8"
+  351  git status
+  352  git push origin main
+  353  git status
+  354  git status
+  355  git commit -am "Archivo formateado con PEP8"
+  356  git push origin main
+  357  git commit -am "Arregle un poco el README.md"
+  358  git push
+  359  git push origin main
+  360  cd ..
+  361  mkdir moduleandpackage
+  362  cd moduleandpackage/
+  363  git init
+  364  PROMP_DIRTRIM=1
+  365  PROMPT_DIRTRIM=1
+  366  rm -rf .git
+  367  git init
+  368  git branch -M main
+  369  code .
+  370  git status
+  371  touch .gitignore
+  372  git status
+  373  start http://repo.new
+  374  start http://repo.new
+  375  git status
+  376  git add .
+  377  git commit -m "Explicacion de modulos y paquetes en python"
+  378  git remote add origin https://github.com/iavila24/moduleandpackage.git
+  379  git push origin main
+  380  git pull origin main
+  381  git push origin main
+  382  git pull origin main --allow-unrelated-histories
+  383  git push origin main
+  384  cd desktop
+  385  cd desktop
+  386  git clone https://github.com/iavila24/virtualenv.git
+  387  cd virtualenv/
+  388  code .
+  389  python -m venv env
+  390  source env/Scripts/activate
+  391  echo hola
+  392  deactivate
+  393  source env/Scripts/activate
+  394  deactivate
+  395  env/Scripts/activate
+  396  source env/Scripts/activate
+  397  pip install ipython
+  398  pip --version
+  399  ipython
+  400  deactivate
+  401  ipython
+  402  cd ..
+  403  mkdir virtualenv_copy
+  404  cp virtualenv/requirements.txt virtualenv_copy/
+  405  code virtualenv_copy
+  406  python -m venv env
+  407  cd virtualenv_copy/
+  408  python -m venv env
+  409  source env/Scripts/activate
+  410  pip install -r requirements.txt 
+  411  deactivate
+  412  cd ..
+  413  cd virtualenv
+  414  git status
+  415  git add .
+  416  git status
+  417  git commit -m "Agregue archivo de entornos virtuales y guia para crearlos"
+  418  git push origin main
+  419  exit
+  420  cd desktop
+  421  cd 307
+  422  git clone https://github.com/juanblink/ascii.git
+  423  cd juanblink
+  424  ls
+  425  cd ascii/
+  426  ls
+  427  car README.md 
+  428  cat README.md 
+  429  ls
+  430  py ascii.py
+  431  py ascii.py
+  432  code .
+  433  cd ..
+  434  git clone https://github.com/luispachuca/ascii.git
+  435  git clone https://github.com/luispachuca/ascii
+  436  mkdir pachuca
+  437  cd pachuca/
+  438  git clone https://github.com/luispachuca/ascii
+  439  cd ascii/
+  440  code .
+  441  cd..
+  442  cd ..
+  443  cd ..
+  444  git clone https://github.com/miriamperez24/asciiart.git
+  445  cd ascii
+  446  cd ..
+  447  cd asciiart/
+  448  code .
+  449  cd ..
+  450  git clone https://github.com/vanessarubiera/colorama.git
+  451  cd colorama/
+  452  code .
+  453  cd..
+  454  cd ..
+  455  git clone https://github.com/nestordelarosa/arte.git
+  456  cd arte/
+  457  code .
+  458  cd ..
+  459  mkdir jupyter
+  460  cd jupyter/
+  461  python -m venv env
+  462   ls
+  463  ls
+  464  ls
+  465  source env/Scripts/activate
+  466  pip install jupyterlab
+  467  jupyter-lab
+  468  jupyter-lab
+  469  cd desktop
+  470  cd 307
+  471  cd jupyter/
+  472  code .
+  473  code .
+  474  cd ..
+  475  mkdir jupyterprofe
+  476  cd jupyter
+  477  cd ..
+  478  cd jupyterprofe/
+  479  git clone https://github.com/iavila24/jupyterexample.git
+  480  code .
+  481  exit
+  482  pwd
+  483  history
+  484  history > history.txt
+  485  ls
+  486  ls -a
+  487  ls -l
+  488  ls -l | clip
+  489  pwd
+  490  cd desktop
+  491  mkdir finalscript
+  492  cd finalscript/
+  493  start https://repo.new
+  494  cd ..
+  495  git clone https://github.com/iavila24/finalscript.git
+  496  cd finalscript/
+  497  code .
+  498  exit
+  499  cd desktop
+  500  git clone https://github.com/iavila24/gitworkflow2.git
+  501  cd gitworkflow2/
+  502  explorer .
+  503  git remote =v
+  504  git remote -v
+  505  git remote -v
+  506  cd ..
+  507  mkdir repovane
+  508  cd repovane
+  509  git clone https://github.com/iavila24/AprendiendoGit.git
+  510  git remote -v
+  511  cd AprendiendoGit/
+  512  git remote -v
+  513  git remote add upstream https://github.com/VanessaRubiera/AprendiendoGit.git
+  514  git remote -v
+  515  git pull upstream main
+  516  git status
+  517  git push origin main
+  518  history
+  519  history > comandos_profe.txt
